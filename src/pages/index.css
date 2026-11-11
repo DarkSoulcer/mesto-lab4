@@ -10,4 +10,35 @@
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/_is-animated/popup_is-animated.css');
 @import url('../blocks/popup/_is-opened/popup_is-opened.css');
-/*Импортируем на уровень выше*/
+
+
+
+.places__tools {
+  display: flex;
+  gap: 12px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.places__tools button {
+  padding: 12px 20px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  transition: opacity 0.2s;
+}
+
+.places__tools button:hover {
+  opacity: 0.6;
+}
+
+.places__status {
+  color: white;
+  font-size: 14px;
+  flex-basis: 100%;
+  margin: 0;
+}
